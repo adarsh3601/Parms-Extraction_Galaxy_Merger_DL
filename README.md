@@ -27,7 +27,11 @@ pip install tensorflow
 ### Case 1: 
 For using Pretrained Model or for gSa and gSb interaction: 
 
-Run Detect
+Run Detect.py for corresponding Images 
 
+Note here:
+1. Model is trained for Image of dimensions 64x64x3. To run model flawlessly please resize the image to the 64x64x3 dimensions
+2. The folder "model" in cloned repository should be 94.8 MB (9,94,96,042 bytes). If it dosen't match, it is advised to download from [https://drive.google.com/drive/folders/1lwhV48n1PcURtrTygO_GF8nZYm1Xw5Go?usp=sharing]
 
-[Website]
+### Case 2:
+For training the model 
